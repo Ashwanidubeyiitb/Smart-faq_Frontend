@@ -1,0 +1,62 @@
+/* General Styling */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('C:/Users/Ashwani/Desktop/faq/smart-faq-app/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Landing Page Styling */
+.landing-page {
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.content {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.bold-text {
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+
+.orange-text {
+  color: orange;
+}
+
+/* Ask a Question Bar */
+.ask-bar {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 600px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.ask-bar img {
+  margin-right: 10px;
+}
